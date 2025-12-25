@@ -15,10 +15,8 @@ body {
 }
 
 #book-container {
-  width: 90vw;
-  max-width: 1200px;
-  height: 90vw;
-  max-height: 1200px;
+  width: 1200px;
+  height: 1200px;
   background: #fff;
   box-shadow: 0 15px 40px rgba(0,0,0,.3);
 }
