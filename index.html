@@ -10,31 +10,20 @@
 </head>
 <body>
 
-<!-- Панель управления -->
-<div class="controls">
-  <button id="prevBtn">←</button>
-  <button id="nextBtn">→</button>
-  <button id="tocBtn">☰</button>
-  <button id="fsBtn">⛶</button>
-</div>
-
-<!-- Оглавление -->
-<div id="toc" class="toc hidden">
-  <h3>Оглавление</h3>
-  <ul>
-    <li data-page="0">Обложка</li>
-    <li data-page="2">Триггеры</li>
-    <li data-page="10">Флаконы</li>
-    <li data-page="20">ПЭТ тара</li>
-    <li data-page="40">Аксессуары</li>
-  </ul>
-</div>
-
 <div class="wrapper">
   <div id="book-container"></div>
 </div>
 
+<!-- Нижняя панель -->
+<div class="bottom-bar" id="bottomBar">
+  <button id="prevBtn">◀</button>
+  <span id="pageIndicator">1 / 60</span>
+  <button id="nextBtn">▶</button>
+  <button id="fsBtn">⛶</button>
+</div>
+
 <audio id="flipSound" src="sound.mp3" preload="auto"></audio>
+<audio id="clickSound" src="sound.mp3" preload="auto"></audio>
 
 <script src="script.js"></script>
 </body>
